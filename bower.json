@@ -1,0 +1,23 @@
+{
+  "name": "grids",
+  "homepage": "https://github.com/jasmine1569/grids",
+  "authors": [
+    "Jasmine Beeman <jasmine.beeman@metalab.csun.edu>"
+  ],
+  "description": "ui kit practing grid system",
+  "main": [
+    "./dist/css/app.css",
+    "./dist/js/app.js "
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-scss": "^3.0.3"
+  }
+}
