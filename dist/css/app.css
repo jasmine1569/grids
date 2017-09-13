@@ -460,29 +460,17 @@ th {
   padding: 0;
 }
 
-.blue {
-  background-color: blue;
-  min-height: 100px;
+html {
+  font-family: "Brandon Text Regular";
 }
 
-.red {
-  background-color: red;
-  min-height: 100px;
-}
-
-.green {
-  background-color: green;
-  min-height: 100px;
-}
-
-.yellow {
-  background-color: yellow;
-  min-height: 100px;
-}
-
-.black {
-  background-color: black;
-  min-height: 100px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Brandon Text Regular";
 }
 
 html {
@@ -495,10 +483,6 @@ html {
 *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
-}
-
-body {
-  background-color: green;
 }
 
 .section {
@@ -524,13 +508,13 @@ body {
   padding: 20px;
 }
 
+.col-outline {
+  border: 1px solid green;
+}
+
 /* EXAMPLE X-SMALL SIZE */
 
 @media (min-width: 750px) {
-  body {
-    background-color: cyan;
-  }
-
   .container {
     width: 599px;
   }
@@ -587,10 +571,6 @@ body {
 /* EXAMPLE SMALL SIZE */
 
 @media (min-width: 800px) {
-  body {
-    background-color: cyan;
-  }
-
   .container {
     width: 750px;
   }
@@ -647,10 +627,6 @@ body {
 /* EXAMPLE MEDIUM SIZE */
 
 @media (min-width: 1280px) {
-  body {
-    background-color: pink;
-  }
-
   .container {
     width: 800px;
   }
@@ -707,10 +683,6 @@ body {
 /* EXAMPLE LARGE SIZE */
 
 @media (min-width: 1366px) {
-  body {
-    background-color: brown;
-  }
-
   .container {
     width: 1280px;
   }
@@ -767,10 +739,6 @@ body {
 /* EXAMPLE X-LARGE SIZE */
 
 @media (min-width: 1920px) {
-  body {
-    background-color: cyan;
-  }
-
   .container {
     width: 1366px;
   }
@@ -842,5 +810,34 @@ body {
 
 .clear-both {
   clear: both;
+}
+
+.type--center {
+  text-align: center;
+}
+
+.blue {
+  background-color: blue;
+  min-height: 100px;
+}
+
+.red {
+  background-color: red;
+  min-height: 100px;
+}
+
+.green {
+  background-color: green;
+  min-height: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  min-height: 100px;
+}
+
+.black {
+  background-color: black;
+  min-height: 100px;
 }
 
