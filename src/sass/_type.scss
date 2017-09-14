@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+//Base
+html{
+  font-weight: 300;
+  font-family: $robot;
+  letter-spacing: 0.75px;
+}
+
+// Head Tags
+h1, h2, h3, h4, h5, h6{
+  font-weight: $medium;
+  line-height: 120%;
+}
+
+p{
+  font-weight: $regular;
+  line-height: 140%;
+}

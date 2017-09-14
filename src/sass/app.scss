@@ -1,7 +1,11 @@
 // General File
-@import "bower_components/normalize-scss/_normalize.scss";
-// @import "normalize";
 @import "variables";
-@import "font";
+@import "type";
 @import "grids";
 @import "helpers";
+
+//Normalize
+@import "bower_components/normalize-scss/_normalize.scss";
+
+// Components
+@import "nav";
