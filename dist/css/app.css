@@ -19,8 +19,16 @@ p {
   line-height: 140%;
 }
 
+.type--robot {
+  font-family: "Roboto", sans-serif;
+}
+
 .type--gold {
   color: #E59B24;
+}
+
+.type--red {
+  color: #BF2027;
 }
 
 html {
@@ -42,20 +50,20 @@ html {
 .container {
   margin: 0 auto;
   width: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 [class^="col-"],
 [class*=" col-"] {
   float: left;
   width: 100%;
-  padding: 15px;
+  padding: 20px;
 }
 
 .col-outline {
@@ -364,6 +372,10 @@ html {
 
 .type--center {
   text-align: center;
+}
+
+.margin--less {
+  margin: 0px;
 }
 
 .blue {
@@ -921,5 +933,9 @@ li {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.arrow--padding {
+  padding: 3px;
 }
 

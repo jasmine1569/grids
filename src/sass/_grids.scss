@@ -8,19 +8,19 @@ html { box-sizing: border-box; }
 .container {
   margin: 0 auto;
   width: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 [class^="col-"], [class*=" col-"]{
   float: left;
   width: 100%;
-  padding: 15px;
+  padding: 20px;
 }
 
 .col-outline{

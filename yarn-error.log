@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/7.7.3/bin/node /Users/jasmine1569/.yarn/bin/yarn.js add cross-env
+  /usr/local/Cellar/node/7.7.3/bin/node /Users/jasmine1569/.yarn/bin/yarn.js add css-loader
 
 PATH: 
   /Users/jasmine1569/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.composer/vendor/bin
@@ -22,16 +22,19 @@ npm manifest:
     "repository": "https://github.com/jasmine1569/grids.git",
     "author": "Jasmine Beeman <jasmine.beeman@metalab.csun.edu>",
     "license": "MIT",
-  
     "scripts": {
-        "dev": "npm run development",
-        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch-poll": "npm run watch -- --watch-poll",
-        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-      },
+      "dev": "npm run development",
+      "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "watch-poll": "npm run watch -- --watch-poll",
+      "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "prod": "npm run production",
+      "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "dependencies": {
+      "cross-env": "^5.0.5",
+      "laravel-mix": "^1.4.3",
+    }
   }
 
 yarn manifest: 
@@ -1469,7 +1472,7 @@ Lockfile:
     version "0.0.4"
     resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
   
-  css-loader@^0.28.3:
+  css-loader@^0.28.3, css-loader@^0.28.7:
     version "0.28.7"
     resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.7.tgz#5f2ee989dd32edd907717f953317656160999c1b"
     dependencies:
@@ -6244,7 +6247,7 @@ Lockfile:
       fd-slicer "~1.0.1"
 
 Trace: 
-  SyntaxError: /Users/jasmine1569/Code/grids/package.json: Unexpected token } in JSON at position 1106
+  SyntaxError: /Users/jasmine1569/Code/ui-kit/package.json: Unexpected token } in JSON at position 1167
       at JSON.parse (<anonymous>)
       at /Users/jasmine1569/.yarn/lib/yarn-cli.js:747:57
       at Generator.next (<anonymous>)

@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
     "laravel-mix": "^1.4.3"
   }
 }
