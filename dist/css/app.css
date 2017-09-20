@@ -23,12 +23,20 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+.type--center {
+  text-align: center;
+}
+
 .type--gold {
   color: #E59B24;
 }
 
 .type--red {
   color: #BF2027;
+}
+
+.type--white {
+  color: #ffffff;
 }
 
 html {
@@ -401,6 +409,23 @@ html {
 .black {
   background-color: black;
   min-height: 100px;
+}
+
+.black-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+  /*z-index: 0;*/
+}
+
+.page__helper--full {
+  min-height: calc(100vh - 130px);
 }
 
 /* ==========================================================================
@@ -865,10 +890,6 @@ th {
   padding: 0;
 }
 
-.primary-nav {
-  background-color: #0E1721;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -876,8 +897,8 @@ ul {
   overflow: hidden;
 }
 
-li {
-  float: left;
+.primary-nav {
+  background-color: #0E1721;
 }
 
 .primary-nav__link {
@@ -937,5 +958,30 @@ li {
 
 .arrow--padding {
   padding: 3px;
+}
+
+.banner__cover {
+  position: relative;
+  background: url(http://i.huffpost.com/gen/3582334/images/o-HALLOWEEN-facebook.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.flex__cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 550px;
+}
+
+.pre-overlay {
+  position: relative;
+  z-index: 1;
 }
 

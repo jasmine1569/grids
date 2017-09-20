@@ -1,0 +1,18 @@
+
+.banner__cover{
+  position: relative;
+  background: url(http://i.huffpost.com/gen/3582334/images/o-HALLOWEEN-facebook.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.flex__cover{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 510px;
+}
+
+.pre-overlay{
+  position: relative;
+  z-index: 1;
+}
