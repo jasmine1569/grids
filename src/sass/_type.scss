@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
-//Base
-html{
-  font-weight: 300;
-  font-family: $robot;
-  letter-spacing: 0.75px;
-}
-
 // Head Tags
 h1, h2, h3, h4, h5, h6{
-  font-weight: $medium;
+  font-weight: normal;
+  font-style: normal;
   line-height: 120%;
+  font-family: $regular;
 }
 
 p{
-  font-weight: $regular;
+  font-weight: $rob--regular;
   line-height: 140%;
+  font-family: $robot;
 }
 
 //Type Family
@@ -30,3 +26,4 @@ p{
 .type--gold{ color: #E59B24; }
 .type--red{ color: #BF2027; }
 .type--white{ color: #ffffff; }
+

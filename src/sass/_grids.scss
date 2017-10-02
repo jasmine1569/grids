@@ -17,6 +17,7 @@ html { box-sizing: border-box; }
   margin-right: -20px;
 }
 
+//This allows for any class with col- to take the spedfics inside the {}
 [class^="col-"], [class*=" col-"]{
   float: left;
   width: 100%;

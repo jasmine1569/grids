@@ -1,7 +1,32 @@
 // Type
 $robot: 'Roboto', sans-serif;
 
-$bold: 700;
-$light: 300;
-$medium: 500;
-$regular: 400;
+//*FONT-WEIGHTS*//
+
+// Roboto
+$rob--bold: 700;
+$rob--light: 300;
+$rob--medium: 500;
+$rob--regular: 400;
+
+//DINPro
+$light: FFDINWebProLight;
+$light--italic: FFDINWebProLightItalic;
+$regular: FFDINWebProRegular;
+$regular--italic: FFDINWebProRegularItalic;
+$medium: FFDINWebProMedium;
+$medium--italic: FFDINWebProMediumItalic;
+$bold: FFDINWebProBold;
+$bold--italic: FFDINWebProBoldItalic;
+$black: FFDINWebProBlack;
+$black--italic: FFDINWebProBlackItalic;
+$condensed__light: FFDINWebProCondensedLight;
+$condensed__light--italic: FFDINWebProCondensedLightItalic;
+$condensed__regular: FFDINWebProCondensedRegular;
+$condensed__regular--italic: FFDINWebProCondensedRegularItalic;
+$condensed__medium: FFDINWebProCondensedMedium;
+$condensed__medium--italic: FFDINWebProCondensedMediumItalic;
+$condensed__bold: FFDINWebProCondensedBold;
+$condensed__bold--italic: FFDINWebProCondensedBoldItalic;
+$condensed__black: FFDINWebProCondensedBlack;
+$condensed__black--italic: FFDINWebProCondensedBlackItalic;
