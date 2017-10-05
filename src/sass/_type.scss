@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
+html{
+  font-family: $robot;
+}
+
 // Head Tags
 h1, h2, h3, h4, h5, h6{
   font-weight: normal;
   font-style: normal;
   line-height: 120%;
-  font-family: $regular;
+  font-family: $robot;
 }
 
 p{

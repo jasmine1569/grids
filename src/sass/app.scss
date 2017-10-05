@@ -4,8 +4,11 @@
 @import "grids";
 @import "helpers";
 
-//Normalize
-@import "bower_components/normalize-scss/_normalize.scss";
+
+@import "node_modules/font-awesome/scss/font-awesome";
+
+//Reset
+@import "normalize";
 
 // Components
 @import "nav";
