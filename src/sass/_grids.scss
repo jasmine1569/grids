@@ -1,6 +1,11 @@
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
 .section{
 	padding: 20px 0px;
 }
