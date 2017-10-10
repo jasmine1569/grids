@@ -42,6 +42,18 @@ p {
   color: #ffffff;
 }
 
+.page__helper--full {
+  min-height: calc(100vh - 130px);
+}
+
+.main {
+  min-height: calc(100vh - 243px);
+}
+
+.main--helper {
+  min-height: calc(100vh - 130px);
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -394,10 +406,6 @@ body {
   margin: 0px;
 }
 
-.margin__icon--left {
-  margin-left: 10px;
-}
-
 .blue {
   background-color: blue;
   min-height: 100px;
@@ -421,31 +429,6 @@ body {
 .black {
   background-color: black;
   min-height: 100px;
-}
-
-.black-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: block;
-  /*z-index: 0;*/
-}
-
-.page__helper--full {
-  min-height: calc(100vh - 130px);
-}
-
-.main {
-  min-height: calc(100vh - 243px);
-}
-
-.main--helper {
-  min-height: calc(100vh - 130px);
 }
 
 /*!
@@ -4056,6 +4039,19 @@ ul {
   min-height: 510px;
 }
 
+.black-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+  /*z-index: 0;*/
+}
+
 .pre-overlay {
   position: relative;
   z-index: 1;
@@ -4076,5 +4072,35 @@ ul {
   color: white;
   width: 100%;
   background-color: #0D1011;
+}
+
+@media (min-width: 350px) and (max-width: 740px) {
+  .metalab-footer {
+    min-height: 150px;
+  }
+}
+
+.metalab-branding {
+  text-align: left;
+}
+
+@media (min-width: 320px) and (max-width: 740px) {
+  .metalab-branding {
+    text-align: center;
+  }
+}
+
+.metalab-social {
+  text-align: right;
+}
+
+@media (min-width: 320px) and (max-width: 740px) {
+  .metalab-social {
+    text-align: center;
+  }
+}
+
+.margin__icon--right {
+  margin-right: 15px;
 }
 

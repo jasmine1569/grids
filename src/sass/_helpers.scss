@@ -30,42 +30,9 @@
   margin: 0px;
 }
 
-.margin__icon--left{
-  margin-left: 10px;
-}
-
-//Padding
-
-
 //Colors
 .blue { background-color: blue; min-height: 100px; }
 .red { background-color: red; min-height: 100px; }
 .green { background-color: green; min-height: 100px; }
 .yellow { background-color: yellow; min-height: 100px; }
 .black { background-color: black; min-height: 100px; }
-
-//Styling
-.black-overlay{
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: block;
-  /*z-index: 0;*/
-}
-
-.page__helper--full{
-  min-height: calc(100vh - 130px);
-}
-
-.main {
-  min-height: calc(100vh - 243px);
-}
-
-.main--helper{
-  min-height: calc(100vh - 130px);
-}

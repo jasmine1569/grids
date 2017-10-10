@@ -53,6 +53,7 @@ These scripts create shortcut commands
 ```bash
 $ yarn add laravel-mix
 $ yarn add cross-env
+$ yarn add font-awesome
 ````
 # Webpack Commands
 By adding the scripts into the package.json we are able to run these commands. 
